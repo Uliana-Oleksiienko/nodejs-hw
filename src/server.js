@@ -8,7 +8,22 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(pinoHttp());
+
+app.use(
+  pinoHttp({
+    transport:
+      process.env.NODE_ENV !== 'production'
+        ? {
+            target: 'pino-pretty',
+            options: {
+              colorize: true,
+              translateTime: 'HH:MM:ss',
+              ignore: 'pid,hostname',
+            },
+          }
+        : undefined,
+  })
+);
 
 // Routes
 app.get('/notes', (req, res) => {
