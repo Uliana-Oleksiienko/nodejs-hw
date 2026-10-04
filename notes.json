@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Shopping list",
+    "content": "Milk, bread, eggs, apples",
+    "tag": "Shopping"
+  },
+  {
+    "title": "Meeting with team",
+    "content": "Discuss project deadlines",
+    "tag": "Meeting"
+  },
+  {
+    "title": "Workout plan",
+    "content": "Monday: gym, Wednesday: run, Friday: yoga",
+    "tag": "Health"
+  },
+  {
+    "title": "Book to read",
+    "content": "Clean Code by Robert Martin",
+    "tag": "Personal"
+  },
+  {
+    "title": "Project ideas",
+    "content": "Build a note-taking app with Next.js",
+    "tag": "Ideas"
+  },
+  {
+    "title": "Trip to Paris",
+    "content": "Visit Eiffel Tower, Louvre Museum",
+    "tag": "Travel"
+  },
+  {
+    "title": "Monthly budget",
+    "content": "Track expenses and savings",
+    "tag": "Finance"
+  },
+  {
+    "title": "Important call",
+    "content": "Call client at 3 PM",
+    "tag": "Important"
+  },
+  {
+    "title": "Todo today",
+    "content": "Finish homework, clean room",
+    "tag": "Todo"
+  },
+  {
+    "title": "Work presentation",
+    "content": "Prepare slides for Monday",
+    "tag": "Work"
+  }
+]

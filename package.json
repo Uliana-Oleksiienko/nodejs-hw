@@ -10,6 +10,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
+    "http-errors": "^2.0.1",
+    "mongoose": "^9.10.4",
     "pino-http": "^10.3.0"
   },
   "devDependencies": {
