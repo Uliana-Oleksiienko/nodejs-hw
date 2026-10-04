@@ -14,8 +14,8 @@ app.use(logger);
 app.use(express.json());
 app.use(cors());
 
-// Routes
-app.use('/notes', notesRoutes);
+// Routes (без префіксу!)
+app.use(notesRoutes);
 
 // 404
 app.use(notFoundHandler);
@@ -23,7 +23,8 @@ app.use(notFoundHandler);
 // Error handler
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
+
 await connectMongoDB();
 
 app.listen(PORT, () => {
