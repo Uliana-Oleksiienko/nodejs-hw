@@ -18,6 +18,11 @@ const noteSchema = new mongoose.Schema(
       enum: TAGS,
       default: 'Todo',
     },
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true,
+    },
   },
   {
     timestamps: true,
